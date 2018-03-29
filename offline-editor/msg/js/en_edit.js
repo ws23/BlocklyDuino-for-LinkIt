@@ -102,6 +102,7 @@ Blockly.Msg.CATEGORY_OTTO = "Otto";
 Blockly.Msg.CATEGORY_I2C_MATRIX = "LED Matrix";
 Blockly.Msg.CATEGORY_I2C_SEVENSEG = "7 Segment";
 Blockly.Msg.CATEGORY_IFTTT = "IFTTT";
+Blockly.Msg.CATEGORY_GAME = "game";
 Blockly.Msg.CATEGORY_INITIALIZES = "Initializes";
 Blockly.Msg.CATEGORY_INOUT = "In/Out";
 Blockly.Msg.CATEGORY_INTERRUPTS = "Interrupts";

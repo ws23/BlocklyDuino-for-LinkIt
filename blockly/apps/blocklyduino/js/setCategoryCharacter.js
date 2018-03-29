@@ -1,4 +1,5 @@
 function setCategoryCharacter() {
+  $('#category_game').attr('name',Blockly.Msg.CATEGORY_GAME);
   $('#category_initializes').attr('name',Blockly.Msg.CATEGORY_INITIALIZES);
   $('#category_inout').attr('name',Blockly.Msg.CATEGORY_INOUT);
   $('#category_digital').attr('name',Blockly.Msg.CATEGORY_DIGITAL);

@@ -102,6 +102,7 @@ Blockly.Msg.CATEGORY_OTTO = "Otto";
 Blockly.Msg.CATEGORY_I2C_MATRIX = "LED 矩陣";
 Blockly.Msg.CATEGORY_I2C_SEVENSEG = "7 段 LED";
 Blockly.Msg.CATEGORY_IFTTT = "IFTTT";
+Blockly.Msg.CATEGORY_GAME = "遊戲";
 Blockly.Msg.CATEGORY_INITIALIZES = "程式流程";
 Blockly.Msg.CATEGORY_INOUT = "輸入/輸出";
 Blockly.Msg.CATEGORY_INTERRUPTS = "中斷訊號";
@@ -1368,3 +1369,5 @@ Blockly.Msg.BUTTON_BOARD_SETTINGS = "開發板設定";
 Blockly.Msg.TEXT_UPLOADER_STATUS = "燒錄狀態";
 Blockly.Msg.TEXT_BOARD = "開發板";
 Blockly.Msg.TEXT_COM_PORT = "連接埠";
+
+Blockly.Msg.GAME_CAT_PICTURE_TOOLTIP = "貓";
