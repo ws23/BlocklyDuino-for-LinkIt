@@ -240,23 +240,16 @@ class Gen_compressed(threading.Thread):
     self.do_compile(params, target_filename, filenames, remove)
 
   def do_compile(self, params, target_filename, filenames, remove):
-
-    return
-
     # Send the request to Google.
     headers = {'Content-type': 'application/x-www-form-urlencoded'}
-    conn = httplib.HTTPConnection('closure-compiler.appspot.com')
+    conn = httplib.HTTPSConnection('closure-compiler.appspot.com')
     conn.request('POST', '/compile', urllib.urlencode(params), headers)
     response = conn.getresponse()
     json_str = response.read()
     conn.close()
 
-    try:
-      # Parse the JSON response.
-      json_data = json.loads(json_str)
-    except ValueError, e:
-      print('WARNING: Empty JSON Object! (%s)' % target_filename)
-      return
+    # Parse the JSON response.
+    json_data = json.loads(json_str)
 
     def file_lookup(name):
       if not name.startswith('Input_'):

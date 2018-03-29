@@ -607,8 +607,11 @@ Blockly.Msg.INOUT_DIGITAL_WRITE_APPENDTEXT_PIN = "digitalWrite pin";
 Blockly.Msg.INOUT_DIGITAL_WRITE_APPENDTEXT_STAT = "stat";
 Blockly.Msg.INOUT_DIGITAL_WRITE_HELPURL = "http://arduino.cc/en/Reference/DigitalWrite";
 Blockly.Msg.INOUT_DIGITAL_WRITE_TOOLTIP = "Write digital value to a specific Port.";
-Blockly.Msg.INOUT_LED_BUINTIN = "Built-In LED stat";
+Blockly.Msg.INOUT_LED_BUINTIN = "Built-In LED Stat";
 Blockly.Msg.INOUT_LED_BUINTIN_TOOLTIP = "light or off the build-in LED";
+Blockly.Msg.INOUT_LED_BUINTIN_READ = "Read Built-In LED Stat";
+Blockly.Msg.INOUT_LED_BUINTIN_READ_HELPURL = "http://arduino.cc/en/Reference/DigitalRead";
+Blockly.Msg.INOUT_LED_BUINTIN_READ_TOOLTIP = "";
 Blockly.Msg.INOUT_HIGH = "HIGH";
 Blockly.Msg.INOUT_LOW = "LOW";
 Blockly.Msg.INOUT_OFF = "OFF";
@@ -1380,3 +1383,9 @@ Blockly.Msg.LINKIT_SET_BLE_PERIPHRAL_HTTPS = "https://";
 
 Blockly.Msg.CATEGORY_EXTERNAL = "External";
 Blockly.Msg.CATEGORY_BETA = "Untested";
+
+Blockly.Msg.BUTTON_UPLOAD = "Upload";
+Blockly.Msg.BUTTON_BOARD_SETTINGS = "Board Settings";
+Blockly.Msg.TEXT_UPLOADER_STATUS = "Uploader Status";
+Blockly.Msg.TEXT_BOARD = "Board";
+Blockly.Msg.TEXT_COM_PORT = "COM Port";

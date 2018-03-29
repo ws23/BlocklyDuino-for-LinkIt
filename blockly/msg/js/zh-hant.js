@@ -606,7 +606,10 @@ Blockly.Msg.INOUT_DIGITAL_WRITE_APPENDTEXT_STAT = "狀態";  // untranslated
 Blockly.Msg.INOUT_DIGITAL_WRITE_HELPURL = "http://arduino.cc/en/Reference/DigitalWrite";  // untranslated
 Blockly.Msg.INOUT_DIGITAL_WRITE_TOOLTIP = "Write digital value to a specific Port.";  // untranslated
 Blockly.Msg.INOUT_LED_BUINTIN = "內建 LED 狀態";
+Blockly.Msg.INOUT_LED_BUINTIN_READ = "讀取內建 LED 狀態";
 Blockly.Msg.INOUT_LED_BUINTIN_TOOLTIP = "開啟/關閉內建 LED";
+Blockly.Msg.INOUT_LED_BUINTIN_READ_HELPURL = "http://arduino.cc/en/Reference/DigitalRead";
+Blockly.Msg.INOUT_LED_BUINTIN_READ_TOOLTIP = "";
 Blockly.Msg.INOUT_HIGH = "高電位";
 Blockly.Msg.INOUT_LOW = "低電位";
 Blockly.Msg.INOUT_OFF = "關";
@@ -1359,3 +1362,9 @@ Blockly.Msg.LINKIT_SET_BLE_PERIPHRAL_HTTPS = "https://";
 
 Blockly.Msg.CATEGORY_EXTERNAL = "外部元件";
 Blockly.Msg.CATEGORY_BETA = "未測試元件";
+
+Blockly.Msg.BUTTON_UPLOAD = "燒錄";
+Blockly.Msg.BUTTON_BOARD_SETTINGS = "開發板設定";
+Blockly.Msg.TEXT_UPLOADER_STATUS = "燒錄狀態";
+Blockly.Msg.TEXT_BOARD = "開發板";
+Blockly.Msg.TEXT_COM_PORT = "連接埠";
