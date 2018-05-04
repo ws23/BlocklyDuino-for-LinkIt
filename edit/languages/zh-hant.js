@@ -1368,3 +1368,8 @@ Blockly.Msg.BUTTON_BOARD_SETTINGS = "開發板設定";
 Blockly.Msg.TEXT_UPLOADER_STATUS = "燒錄狀態";
 Blockly.Msg.TEXT_BOARD = "開發板";
 Blockly.Msg.TEXT_COM_PORT = "連接埠";
+
+Blockly.Msg.CATEGORY_LINKIT_LREMOTE = "遙控器"; 
+Blockly.Msg.LINKIT_LREMOTE_HELPURL = "https://docs.labs.mediatek.com/resource/linkit7697-arduino/en/developer-guide/using-linkit-remote/lremote";
+Blockly.Msg.LINKIT_LREMOTE = "設定裝置名稱";
+Blockly.Msg.LINKIT_LREMOTE_TOOLTIP = "LRemote";

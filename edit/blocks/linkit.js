@@ -825,3 +825,18 @@ Blockly.Blocks['linkit_wifi_status'] = {
     this.setTooltip('');
   }
 };
+
+
+Blockly.Blocks['linkit_lremote'] = {
+  init: function(){
+    this.setHelpUrl(Blockly.Msg.LINKIT_LREMOTE_HELPURL); 
+	this.setColour(Blockly.Blocks.linkit.HUE); 
+	this.appendValueInput("NAME")
+	  .setCheck("String")
+	  .setAlign(Blockly.ALIGN_RIGHT)
+	  .appendField(Blockly.Msg.LINKIT_LREMOTE); 
+	this.setPreviousStatement(true); 
+	this.setNextStatement(true); 
+	this.setTooltip(Blockly.Msg.LINKIT_LREMOTE_TOOLTIP); 
+  }
+}; 

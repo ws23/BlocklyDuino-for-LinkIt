@@ -538,3 +538,16 @@ Blockly.Arduino.linkit_wifi_status = function() {
   var code = this.getFieldValue('String');
   return [code, Blockly.Arduino.ORDER_ATOMIC];
 };
+
+
+Blockly.Arduino.linkit_lremote = function() {
+  var name = Blockly.Arduino.valueToCode(this, 'NAME', Blockly.Arduino.ORDER_ATOMIC) || ''; 
+  name = name.replace(/\"/g, ""); 
+
+  Blockly.Arduino.definitions_['define_linkit_lremote_include'] = '#include <LRemote.h>'; 
+  Blockly.Arduino.definitions_['define_linkit_lremote_name'] = 'char _lremote_name[] = "' + name + '"; '; 
+
+  var code = 'LRemote.setName(_lremote_name); '; 
+
+return code; 
+}; 
