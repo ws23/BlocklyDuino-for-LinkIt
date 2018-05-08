@@ -1,17 +1,3 @@
 _build
 _keys
 *.pyc
-
-src/blockly/msg/js/
-src/blockly/apps/blocklyduino/category.xml
-src/blockly/apps/blocklyduino/js/setCategoryCharacter.js
-src/blockly/blocks/
-src/blockly/generators/arduino/
-src/blockly/media/
-
-src/offline-editor/category.xml
-src/offline-editor/js/setCategoryCharacter.js
-src/offline-editor/media/
-src/offline-editor/js/*_compressed.js
-src/offline-editor/msg/js/
-src/blockly/msg/json/en.json
