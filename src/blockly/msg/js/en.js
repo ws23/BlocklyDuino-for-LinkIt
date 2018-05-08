@@ -1393,4 +1393,5 @@ Blockly.Msg.TEXT_COM_PORT = "COM Port";
 Blockly.Msg.CATEGORY_LINKIT_LREMOTE = "LRemote"; 
 Blockly.Msg.LINKIT_LREMOTE_HELPURL = "https://docs.labs.mediatek.com/resource/linkit7697-arduino/en/developer-guide/using-linkit-remote/lremote"; 
 Blockly.Msg.LINKIT_LREMOTE = "SetName"; 
-Blockly.Msg.LINKIT_LREMOTE_TOOLTIP = "LRemote"; 
+Blockly.Msg.LINKIT_LREMOTE_TOOLTIP = "LRemote";
+Blockly.Msg.CATEGORY_LINKIT_LREMOTE = "Remote"; "
