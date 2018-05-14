@@ -1373,4 +1373,10 @@ Blockly.Msg.CATEGORY_LINKIT_LREMOTE = "遙控器";
 Blockly.Msg.LINKIT_LREMOTE_HELPURL = "https://docs.labs.mediatek.com/resource/linkit7697-arduino/en/developer-guide/using-linkit-remote/lremote";
 Blockly.Msg.LINKIT_LREMOTE = "設定裝置名稱";
 Blockly.Msg.LINKIT_LREMOTE_TOOLTIP = "LRemote";
-Blockly.Msg.CATEGORY_LINKIT_LREMOTE = "遙控器"; 
+Blockly.Msg.CATEGORY_LINKIT_LREMOTE = "遙控器";
+
+// test
+Blockly.Msg.CATEGORY_TEST = "Test"; 
+Blockly.Msg.TEST_HELPFUL = "http://#";
+Blockly.Msg.TEST = "SetName"; 
+Blockly.Msg.TEST_TOOLTIP = "Test"; 
