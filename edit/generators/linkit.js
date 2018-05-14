@@ -549,5 +549,5 @@ Blockly.Arduino.linkit_lremote = function() {
 
   var code = 'LRemote.setName(_lremote_name); '; 
 
-return code; 
+  return code; 
 }; 
