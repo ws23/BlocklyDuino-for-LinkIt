@@ -373,7 +373,7 @@
 </block>
 
 </category>
-<category id="category_linkit_lremote">
+<!--<category id="category_linkit_lremote">
 <block type="linkit_lremote">
 	<value name="NAME">
 		<block type="text">
@@ -381,7 +381,7 @@
 		</block>
 	</value>
 </block>
-</category>
+</category>-->
 <category id="category_linkit_ble">
 <!--
 <block type="linkit_ble_wait_until_ready"></block>
