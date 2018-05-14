@@ -365,7 +365,7 @@
     </value>
 </block>
 <block type="test">
-	<value name="SetName">
+	<value name="NAME">
 		<block type="text">
 			<field name="TEXT"></field>
 		</block>
