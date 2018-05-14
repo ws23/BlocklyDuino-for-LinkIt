@@ -73,7 +73,7 @@ function setCategoryCharacter() {
   $('#category_linkit_wifi').attr('name',Blockly.Msg.CATEGORY_LINKIT_WIFI);
   $('#category_linkit_wifi_advanced').attr('name',Blockly.Msg.CATEGORY_LINKIT_WIFI_ADVANCED);
   $('#category_linkit_mcs').attr('name',Blockly.Msg.CATEGORY_LINKIT_MCS);
-  $('#category_linkit_test').attr('name', Blockly.Msg.CATEGORY_TEST); 
+  $('#category_test').attr('name', Blockly.Msg.CATEGORY_TEST); 
   $('#category_linkit_ble').attr('name',Blockly.Msg.CATEGORY_LINKIT_BLE);
   $('#category_linkit_ble_ibeacon').attr('name',Blockly.Msg.CATEGORY_LINKIT_BLE_BEACON);
 
